@@ -11,6 +11,17 @@
     line-height: 0px !important;
   }
 }
+@media screen and (max-width: 300px) {
+  #intro .title {
+    font-size: 42px !important;
+    line-height: 46px !important;
+  }
+
+  #eCommerce .head {
+    font-size: 43px !important;
+    line-height: 47px !important;
+  }
+}
 section {
   margin-top: 80px;
 }
@@ -136,4 +147,53 @@ header .navbar .searchNavIcon {
   border-radius: 60px;
   color: #ffffff;
   padding: 10px 20px;
+}
+
+#supported .head, #supported .des {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 0em;
+}
+#supported .head {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  color: #272d4e;
+}
+#supported .des {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #94a2b3;
+}
+
+footer {
+  background-color: #7854f7;
+}
+footer .footerLogo {
+  padding-top: 100px;
+  border-bottom: #94a2b3 1px solid;
+}
+footer .footerList .head, footer .footerList li {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+footer .footerList .head {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  text-align: left;
+}
+footer .footerList ul li {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

@@ -18,6 +18,18 @@ $roboto: "Roboto", sans-serif;
         line-height: 0px !important;
     }
 }
+
+@media screen and (max-width: 300px) {
+    #intro .title {
+        font-size: 42px !important;
+        line-height: 46px !important;
+    }
+#eCommerce .head{
+    
+    font-size: 43px !important;
+    line-height: 47px !important;
+
+}}
 section {
     margin-top: 80px;
 }
@@ -158,6 +170,67 @@ border-radius: 60px;
 color: $white   ;
 padding: 10px 20px ;
 
+        }
+    }
+}
+
+// last section 
+#supported{
+    .head,.des{
+        font-family:$roboto;
+        text-align: center; 
+        letter-spacing: 0em;
+
+    }
+    .head{
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;color: $dark-blue;
+       
+    }
+    .des{
+    
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+color: $grey;
+      }
+}
+
+
+// footer start 
+
+footer{
+    background-color: $violet;
+    .footerLogo{
+        padding-top: 100px;
+        border-bottom: $grey 1px solid ; 
+    }
+    .footerList{
+        .head,li{
+            font-family: $roboto;
+            color: $white;
+        }
+        .head{ 
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px;
+text-transform: uppercase;
+letter-spacing: 0em;
+text-align: left; 
+
+        }
+        ul li{ 
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            
         }
     }
 }
