@@ -1,0 +1,236 @@
+$violet: #7854f7;
+$green: #70c217;
+$dark-blue: #272d4e;
+$grey: #94a2b3;
+$blue: #5f37ef;
+$white: #ffffff;
+$roboto: "Roboto", sans-serif;
+
+@media screen and (max-width: 420px) {
+    #intro .title {
+        font-size: 56px !important;
+        line-height: 66px !important;
+    }
+    #intro .joinUs button.startJobBtn {
+        font-size: 13px !important;
+        padding: 1px 5px !important;
+        border-radius: 50px !important;
+        line-height: 0px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #intro .title {
+        font-size: 42px !important;
+        line-height: 46px !important;
+    }
+#eCommerce .head{
+    
+    font-size: 43px !important;
+    line-height: 47px !important;
+
+}}
+section {
+    margin-top: 80px;
+}
+
+header {
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .navbar-nav {
+            margin-left: 45px !important;
+        }
+        .logInBtn,
+        .getStartedBtn,
+        .nav-link {
+            font-family: $roboto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        .getStartedBtn,
+        .nav-link {
+            color: $dark-blue !important;
+        }
+        .getStartedBtn {
+            color: $white !important;
+            background: $violet;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .searchNavIcon {
+            padding: 10px;
+        }
+    }
+}
+
+// 1st section
+#intro {
+    .title,
+    .des {
+        font-family: $roboto;
+    }
+    .title {
+        font-size: 85px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 95px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .des {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        color: $grey;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .joinUs {
+        button.startJobBtn {
+            font-family: $roboto;
+            font-size: 18px;
+            font-style: normal;
+            background: $violet;
+            padding: 10px 20px;
+            border-radius: 60px;
+            font-weight: 400;
+            line-height: 21px;
+            color: $white;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .txt {
+            font-family: $roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            padding: 5px;
+            text-align: left;
+            color: $grey;
+        }
+        .txtLink {
+            padding: 5px;
+            font-family: $roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+}
+
+// 2nd section
+#eCommerce {
+    .head {
+        font-family: $roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 70px;
+        text-align: center;
+        color: $dark-blue;
+    }
+}
+
+// 3rd section
+
+#develop{
+    .devTxt{
+        .title,.des{
+            font-family:$roboto;
+            color: $white; 
+        }
+        .title{
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left; 
+        }
+        .des{
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left; 
+        }
+        .readTheDocumentation{
+            background:$green;
+border-radius: 60px;
+color: $white   ;
+padding: 10px 20px ;
+
+        }
+    }
+}
+
+// last section 
+#supported{
+    .head,.des{
+        font-family:$roboto;
+        text-align: center; 
+        letter-spacing: 0em;
+
+    }
+    .head{
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;color: $dark-blue;
+       
+    }
+    .des{
+    
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+color: $grey;
+      }
+}
+
+
+// footer start 
+
+footer{
+    background-color: $violet;
+    .footerLogo{
+        padding-top: 100px;
+        border-bottom: $grey 1px solid ; 
+    }
+    .footerList{
+        .head,li{
+            font-family: $roboto;
+            color: $white;
+        }
+        .head{ 
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px;
+text-transform: uppercase;
+letter-spacing: 0em;
+text-align: left; 
+
+        }
+        ul li{ 
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            
+        }
+    }
+}

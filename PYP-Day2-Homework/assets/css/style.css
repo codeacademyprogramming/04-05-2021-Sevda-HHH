@@ -1,0 +1,199 @@
+@media screen and (max-width: 420px) {
+  #intro .title {
+    font-size: 56px !important;
+    line-height: 66px !important;
+  }
+
+  #intro .joinUs button.startJobBtn {
+    font-size: 13px !important;
+    padding: 1px 5px !important;
+    border-radius: 50px !important;
+    line-height: 0px !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  #intro .title {
+    font-size: 42px !important;
+    line-height: 46px !important;
+  }
+
+  #eCommerce .head {
+    font-size: 43px !important;
+    line-height: 47px !important;
+  }
+}
+section {
+  margin-top: 80px;
+}
+
+header .navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .navbar .navbar-nav {
+  margin-left: 45px !important;
+}
+header .navbar .logInBtn,
+header .navbar .getStartedBtn,
+header .navbar .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+header .navbar .getStartedBtn,
+header .navbar .nav-link {
+  color: #272d4e !important;
+}
+header .navbar .getStartedBtn {
+  color: #ffffff !important;
+  background: #7854f7;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+header .navbar .searchNavIcon {
+  padding: 10px;
+}
+
+#intro .title,
+#intro .des {
+  font-family: "Roboto", sans-serif;
+}
+#intro .title {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#intro .des {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #94a2b3;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#intro .joinUs button.startJobBtn {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  background: #7854f7;
+  padding: 10px 20px;
+  border-radius: 60px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#intro .joinUs .txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  padding: 5px;
+  text-align: left;
+  color: #94a2b3;
+}
+#intro .joinUs .txtLink {
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#eCommerce .head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+  color: #272d4e;
+}
+
+#develop .devTxt .title, #develop .devTxt .des {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+#develop .devTxt .title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#develop .devTxt .des {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#develop .devTxt .readTheDocumentation {
+  background: #70c217;
+  border-radius: 60px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+#supported .head, #supported .des {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 0em;
+}
+#supported .head {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  color: #272d4e;
+}
+#supported .des {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #94a2b3;
+}
+
+footer {
+  background-color: #7854f7;
+}
+footer .footerLogo {
+  padding-top: 100px;
+  border-bottom: #94a2b3 1px solid;
+}
+footer .footerList .head, footer .footerList li {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+footer .footerList .head {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  text-align: left;
+}
+footer .footerList ul li {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
